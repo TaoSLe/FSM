@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AI.FSM.BaseFSM">
+    <Position X="1" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQQAQAFAwCgAhAAAIAQAEgwMAAAADAAEAQACAAAICAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\BaseFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.FSMState">
+    <Position X="4.25" Y="1" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAMIAAAAAAAAQCAAAAAAAAAICABAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\FSM\FSMState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.FSMTrigger">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\FSMTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.AttackingState" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\AttackingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.DeadState" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\States\DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.ReachTargetTrigger" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\ReachTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI.FSM.SawTargetTrigger" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FSM\Triggers\SawTargetTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
